@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="ps8.css">
+</head>
+<body>
+    <form method="post"  action="/project/1">
+        <fieldset id="personal_information">
+            <legend>Create New Account</legend>
+            <ol>
+                <li>
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name"  autofocus="true" required name="first_name" placeholder="'John'">
+                </li>
+                <li>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" required name="last_name" placeholder="'Smith'" >
+                </li>
+                <li>
+                    <label for="email">Email contact</label>
+                    <input type="email" required name="email" id="email" placeholder="'user@example.com'">
+                </li>
+                
+                <li>
+                    <input type="submit" value="sign Up">
+                </li>
+            </ol>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
